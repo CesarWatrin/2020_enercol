@@ -147,4 +147,11 @@ nav ul li:hover {
   src: url(../fonts/ShadowsIntoLight-Regular.ttf);
 }
 
+/* line 32, ../César/Documents/MIW/Integration/github/2020_enercol/scss/style.scss */
+.header {
+  height: 250px;
+  background-image: url("../img/header.jpg");
+  background-size: cover;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -28,3 +28,9 @@ $grisFonce: rgb(109,111,113);
   font-family: 'Shadows';
   src: url(../fonts/ShadowsIntoLight-Regular.ttf);
 }
+
+.header {
+   height: 250px;
+   background-image: url('../img/header.jpg');
+   background-size: cover;
+}
