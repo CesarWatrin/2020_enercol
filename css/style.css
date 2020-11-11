@@ -65,14 +65,15 @@ nav .logo span:last-child {
   font-size: 25px;
   line-height: 80px;
   font-family: 'Shadows';
+  padding-right: 10px;
 }
 
-/* line 65, ../César/Documents/MIW/Integration/github/2020_enercol/scss/_navbar.scss */
+/* line 66, ../César/Documents/MIW/Integration/github/2020_enercol/scss/_navbar.scss */
 nav .affiche {
   display: flex;
 }
 
-/* line 69, ../César/Documents/MIW/Integration/github/2020_enercol/scss/_navbar.scss */
+/* line 70, ../César/Documents/MIW/Integration/github/2020_enercol/scss/_navbar.scss */
 nav ul {
   display: none;
   flex-direction: column;
@@ -80,7 +81,7 @@ nav ul {
   padding: 0;
 }
 
-/* line 75, ../César/Documents/MIW/Integration/github/2020_enercol/scss/_navbar.scss */
+/* line 76, ../César/Documents/MIW/Integration/github/2020_enercol/scss/_navbar.scss */
 nav ul li {
   list-style: none;
   line-height: 80px;
@@ -88,7 +89,7 @@ nav ul li {
   text-align: center;
 }
 
-/* line 81, ../César/Documents/MIW/Integration/github/2020_enercol/scss/_navbar.scss */
+/* line 82, ../César/Documents/MIW/Integration/github/2020_enercol/scss/_navbar.scss */
 nav ul li a {
   text-decoration: none;
   color: black;
@@ -97,30 +98,30 @@ nav ul li a {
   font-size: 25px;
 }
 
-/* line 89, ../César/Documents/MIW/Integration/github/2020_enercol/scss/_navbar.scss */
+/* line 90, ../César/Documents/MIW/Integration/github/2020_enercol/scss/_navbar.scss */
 nav ul li a:hover {
   text-decoration: none;
   color: black;
   font-size: 30px;
 }
 
-/* line 96, ../César/Documents/MIW/Integration/github/2020_enercol/scss/_navbar.scss */
+/* line 97, ../César/Documents/MIW/Integration/github/2020_enercol/scss/_navbar.scss */
 nav ul li:hover {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
 @media screen and (min-width: 1089px) {
-  /* line 106, ../César/Documents/MIW/Integration/github/2020_enercol/scss/_navbar.scss */
+  /* line 107, ../César/Documents/MIW/Integration/github/2020_enercol/scss/_navbar.scss */
   nav .div_burger {
     display: none;
   }
-  /* line 110, ../César/Documents/MIW/Integration/github/2020_enercol/scss/_navbar.scss */
+  /* line 111, ../César/Documents/MIW/Integration/github/2020_enercol/scss/_navbar.scss */
   nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
   }
-  /* line 115, ../César/Documents/MIW/Integration/github/2020_enercol/scss/_navbar.scss */
+  /* line 116, ../César/Documents/MIW/Integration/github/2020_enercol/scss/_navbar.scss */
   nav ul li {
     display: inline-flex;
   }
