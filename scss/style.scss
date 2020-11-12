@@ -29,8 +29,236 @@ $grisFonce: rgb(109,111,113);
   src: url(../fonts/ShadowsIntoLight-Regular.ttf);
 }
 
+.Icon {
+  /* Permet de redimensionner en changeant la font-size de l’icône */
+  // width: 1em; height: 1em;
+  /* Bel alignement visuel des icônes avec le texte */
+  vertical-align: -0.15em;
+  /* fill par défaut = valeur de la propriété couleur de son élément parent */
+  fill: currentColor;
+  /* Les paths et les strokes qui dépassent de la viewBox peuvent apparaître dans IE.
+     Si vous utilisez normalize.css, inutile de l’ajouter. */
+  overflow: hidden;
+}
+
 .header {
    height: 250px;
    background-image: url('../img/header.jpg');
    background-size: cover;
+}
+
+.region_top {
+   display: flex;
+   flex-direction: column;
+}
+
+.container {
+   font-family: 'Lato';
+}
+
+.logo_svg {
+   text-align: center;
+   height: 70px;
+
+   img {
+      height: 100%;
+      padding-top: 10px;
+      padding-bottom: 10px;
+   }
+}
+
+.slogan {
+   display: flex;
+   flex-direction: column;
+
+   h1,h2 {
+      text-align: center;
+      font-family: 'Anton';
+      color: $orange;
+      margin: 0;
+   }
+}
+
+.pictos_svg {
+   display: flex;
+   flex-direction: column;
+   font-family: 'Lato';
+   padding-bottom: 20px;
+
+   .pictos_1_2 {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      margin-top: 10px;
+      height: 200px;
+
+
+      div {
+         width: 40%;
+
+
+         img {
+            height: 60%;
+         }
+
+         p:first-of-type {
+            font-size: 20px;
+         }
+
+         p:last-child {
+            font-size: 25px;
+            font-family: 'Lato-Black';
+         }
+      }
+   }
+
+   p {
+      text-align: center;
+      margin: 0;
+      padding: 0;
+   }
+
+   .pictos_3_4 {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      height: 200px;
+
+      div {
+         width: 40%;
+
+         img {
+            height: 60%;
+         }
+
+         p:first-of-type {
+            font-size: 20px;
+         }
+
+         p:last-child {
+            font-size: 25px;
+            font-family: 'Lato-Black';
+         }
+      }
+   }
+}
+
+.desc_part {
+   display: flex;
+   flex-direction: column;
+   font-family: 'Lato';
+   padding: 10px;
+
+   div:first-of-type {
+      text-align: center;
+      font-family: 'Lato-Black';
+      font-size: 20px;
+   }
+
+   div:last-child {
+      font-size: 18px;
+   }
+}
+
+.btn_gris {
+   background-color: $grisFonce;
+   font-size: 18px;
+   color: white;
+   text-align: center;
+   border-radius: 10px;
+   margin: 10px;
+   display: flex;
+   flex-direction: column;
+   max-width: 500px;
+   margin: auto;
+
+   p {
+      font-size: 20px;
+      font-family: 'Lato-Black';
+      margin: 5px;
+   }
+
+   img {
+      height: 50px;
+   }
+}
+
+.btn_souscrire {
+   background-color: $orange;
+   font-size: 18px;
+   text-align: center;
+   border-radius: 10px;
+   margin: 10px;
+   width: 150px;
+   display: flex;
+   margin: auto;
+   margin-bottom: 20px;
+
+   p {
+      font-size: 20px;
+      font-family: 'Lato-Black';
+      margin: 5px;
+      line-height: 50px;
+   }
+
+   img {
+      height: 50px;
+      line-height: 50px;
+   }
+}
+
+.inner_actu {
+   background-color: $orange;
+}
+
+.inner_demarche {
+   background-color: $vertClair;
+}
+
+.inner_installations {
+   background-color: white;
+}
+
+.inner_temoignages {
+   background-color: $grisClair;
+}
+
+.region_actu, .region_demarche, .region_installations, .region_temoignages  {
+   margin: 0 auto;
+   color: white;
+   margin-bottom: 20px;
+   max-width: 800px;
+
+   h3,h4 {
+      margin: 5px;
+      margin-bottom: 0;
+      padding-top: 10px;
+      font-family: 'Lato-Black';
+   }
+
+   div:last-child {
+      padding: 10px;
+   }
+
+   img {
+      width: 90%;
+      padding-top: 0;
+      margin: 10px;
+   }
+}
+
+.region_demarche {
+   color: $grisFonce;
+}
+
+.region_installations {
+   color: $grisFonce;
+
+   div:nth-child(2n) {
+      padding: 10px;
+   }
+}
+
+.region_temoignages {
+   color: $grisFonce;
 }

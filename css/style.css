@@ -148,10 +148,275 @@ nav ul li:hover {
 }
 
 /* line 32, ../César/Documents/MIW/Integration/github/2020_enercol/scss/style.scss */
+.Icon {
+  /* Permet de redimensionner en changeant la font-size de l’icône */
+  /* Bel alignement visuel des icônes avec le texte */
+  vertical-align: -0.15em;
+  /* fill par défaut = valeur de la propriété couleur de son élément parent */
+  fill: currentColor;
+  /* Les paths et les strokes qui dépassent de la viewBox peuvent apparaître dans IE.
+     Si vous utilisez normalize.css, inutile de l’ajouter. */
+  overflow: hidden;
+}
+
+/* line 44, ../César/Documents/MIW/Integration/github/2020_enercol/scss/style.scss */
 .header {
   height: 250px;
   background-image: url("../img/header.jpg");
   background-size: cover;
+}
+
+/* line 50, ../César/Documents/MIW/Integration/github/2020_enercol/scss/style.scss */
+.region_top {
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 55, ../César/Documents/MIW/Integration/github/2020_enercol/scss/style.scss */
+.container {
+  font-family: 'Lato';
+}
+
+/* line 59, ../César/Documents/MIW/Integration/github/2020_enercol/scss/style.scss */
+.logo_svg {
+  text-align: center;
+  height: 70px;
+}
+
+/* line 63, ../César/Documents/MIW/Integration/github/2020_enercol/scss/style.scss */
+.logo_svg img {
+  height: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* line 70, ../César/Documents/MIW/Integration/github/2020_enercol/scss/style.scss */
+.slogan {
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 74, ../César/Documents/MIW/Integration/github/2020_enercol/scss/style.scss */
+.slogan h1, .slogan h2 {
+  text-align: center;
+  font-family: 'Anton';
+  color: #fcb731;
+  margin: 0;
+}
+
+/* line 82, ../César/Documents/MIW/Integration/github/2020_enercol/scss/style.scss */
+.pictos_svg {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Lato';
+  padding-bottom: 20px;
+}
+
+/* line 88, ../César/Documents/MIW/Integration/github/2020_enercol/scss/style.scss */
+.pictos_svg .pictos_1_2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 10px;
+  height: 200px;
+}
+
+/* line 96, ../César/Documents/MIW/Integration/github/2020_enercol/scss/style.scss */
+.pictos_svg .pictos_1_2 div {
+  width: 40%;
+}
+
+/* line 100, ../César/Documents/MIW/Integration/github/2020_enercol/scss/style.scss */
+.pictos_svg .pictos_1_2 div img {
+  height: 60%;
+}
+
+/* line 104, ../César/Documents/MIW/Integration/github/2020_enercol/scss/style.scss */
+.pictos_svg .pictos_1_2 div p:first-of-type {
+  font-size: 20px;
+}
+
+/* line 108, ../César/Documents/MIW/Integration/github/2020_enercol/scss/style.scss */
+.pictos_svg .pictos_1_2 div p:last-child {
+  font-size: 25px;
+  font-family: 'Lato-Black';
+}
+
+/* line 115, ../César/Documents/MIW/Integration/github/2020_enercol/scss/style.scss */
+.pictos_svg p {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 121, ../César/Documents/MIW/Integration/github/2020_enercol/scss/style.scss */
+.pictos_svg .pictos_3_4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 200px;
+}
+
+/* line 127, ../César/Documents/MIW/Integration/github/2020_enercol/scss/style.scss */
+.pictos_svg .pictos_3_4 div {
+  width: 40%;
+}
+
+/* line 130, ../César/Documents/MIW/Integration/github/2020_enercol/scss/style.scss */
+.pictos_svg .pictos_3_4 div img {
+  height: 60%;
+}
+
+/* line 134, ../César/Documents/MIW/Integration/github/2020_enercol/scss/style.scss */
+.pictos_svg .pictos_3_4 div p:first-of-type {
+  font-size: 20px;
+}
+
+/* line 138, ../César/Documents/MIW/Integration/github/2020_enercol/scss/style.scss */
+.pictos_svg .pictos_3_4 div p:last-child {
+  font-size: 25px;
+  font-family: 'Lato-Black';
+}
+
+/* line 146, ../César/Documents/MIW/Integration/github/2020_enercol/scss/style.scss */
+.desc_part {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Lato';
+  padding: 10px;
+}
+
+/* line 152, ../César/Documents/MIW/Integration/github/2020_enercol/scss/style.scss */
+.desc_part div:first-of-type {
+  text-align: center;
+  font-family: 'Lato-Black';
+  font-size: 20px;
+}
+
+/* line 158, ../César/Documents/MIW/Integration/github/2020_enercol/scss/style.scss */
+.desc_part div:last-child {
+  font-size: 18px;
+}
+
+/* line 163, ../César/Documents/MIW/Integration/github/2020_enercol/scss/style.scss */
+.btn_gris {
+  background-color: #6d6f71;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: auto;
+}
+
+/* line 175, ../César/Documents/MIW/Integration/github/2020_enercol/scss/style.scss */
+.btn_gris p {
+  font-size: 20px;
+  font-family: 'Lato-Black';
+  margin: 5px;
+}
+
+/* line 181, ../César/Documents/MIW/Integration/github/2020_enercol/scss/style.scss */
+.btn_gris img {
+  height: 50px;
+}
+
+/* line 186, ../César/Documents/MIW/Integration/github/2020_enercol/scss/style.scss */
+.btn_souscrire {
+  background-color: #fcb731;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 10px;
+  width: 150px;
+  display: flex;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+/* line 197, ../César/Documents/MIW/Integration/github/2020_enercol/scss/style.scss */
+.btn_souscrire p {
+  font-size: 20px;
+  font-family: 'Lato-Black';
+  margin: 5px;
+  line-height: 50px;
+}
+
+/* line 204, ../César/Documents/MIW/Integration/github/2020_enercol/scss/style.scss */
+.btn_souscrire img {
+  height: 50px;
+  line-height: 50px;
+}
+
+/* line 210, ../César/Documents/MIW/Integration/github/2020_enercol/scss/style.scss */
+.inner_actu {
+  background-color: #fcb731;
+}
+
+/* line 214, ../César/Documents/MIW/Integration/github/2020_enercol/scss/style.scss */
+.inner_demarche {
+  background-color: #b3d143;
+}
+
+/* line 218, ../César/Documents/MIW/Integration/github/2020_enercol/scss/style.scss */
+.inner_installations {
+  background-color: white;
+}
+
+/* line 222, ../César/Documents/MIW/Integration/github/2020_enercol/scss/style.scss */
+.inner_temoignages {
+  background-color: #e8ddca;
+}
+
+/* line 226, ../César/Documents/MIW/Integration/github/2020_enercol/scss/style.scss */
+.region_actu, .region_demarche, .region_installations, .region_temoignages {
+  margin: 0 auto;
+  color: white;
+  margin-bottom: 20px;
+  max-width: 800px;
+}
+
+/* line 232, ../César/Documents/MIW/Integration/github/2020_enercol/scss/style.scss */
+.region_actu h3, .region_actu h4, .region_demarche h3, .region_demarche h4, .region_installations h3, .region_installations h4, .region_temoignages h3, .region_temoignages h4 {
+  margin: 5px;
+  margin-bottom: 0;
+  padding-top: 10px;
+  font-family: 'Lato-Black';
+}
+
+/* line 239, ../César/Documents/MIW/Integration/github/2020_enercol/scss/style.scss */
+.region_actu div:last-child, .region_demarche div:last-child, .region_installations div:last-child, .region_temoignages div:last-child {
+  padding: 10px;
+}
+
+/* line 243, ../César/Documents/MIW/Integration/github/2020_enercol/scss/style.scss */
+.region_actu img, .region_demarche img, .region_installations img, .region_temoignages img {
+  width: 90%;
+  padding-top: 0;
+  margin: 10px;
+}
+
+/* line 250, ../César/Documents/MIW/Integration/github/2020_enercol/scss/style.scss */
+.region_demarche {
+  color: #6d6f71;
+}
+
+/* line 254, ../César/Documents/MIW/Integration/github/2020_enercol/scss/style.scss */
+.region_installations {
+  color: #6d6f71;
+}
+
+/* line 257, ../César/Documents/MIW/Integration/github/2020_enercol/scss/style.scss */
+.region_installations div:nth-child(2n) {
+  padding: 10px;
+}
+
+/* line 262, ../César/Documents/MIW/Integration/github/2020_enercol/scss/style.scss */
+.region_temoignages {
+  color: #6d6f71;
 }
 
 /*# sourceMappingURL=style.css.map */
